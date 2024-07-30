@@ -24,7 +24,7 @@ pipeline {
 
         stage('Run tests') {
             steps {
-                script{
+                script {
                     sh "echo 'run some tests'"
                 }
             }
